@@ -1,0 +1,143 @@
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "179ab35e4c8a0f2071f92a82aec6fc1f7acab7b5"
+os = "macos"
+
+    [[MrBayes.download]]
+    sha256 = "61988589201f9d450a1fe1583d5d10d0b6cb1e349618ea10d888c3e6ac568a48"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.aarch64-apple-darwin.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "ddfb7c1b037600b3a621cb3596e9b1a85ecb9f24"
+libc = "glibc"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "6bf474f75885b0117fe208e53e0d017631eabf21bcb4f049d255e0ec8cca3b17"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.aarch64-linux-gnu.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "80bcd6a1c888d9cf9621edbc9354223d2aa4c2ec"
+libc = "musl"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "89c030430595728fbe42392d80999f5ef750052b8367f5949b20e7badbcf4088"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.aarch64-linux-musl.tar.gz"
+[[MrBayes]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "338df6784fe0fd1c7de62bb153218ae0e0563408"
+libc = "glibc"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "eb712fb6654c308dc4d600d412c0b4b1777091116abe9761f4198524d62a3c92"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv6l-linux-gnueabihf.tar.gz"
+[[MrBayes]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6102db1359a13b1b3eaa788f430532b48b4277d5"
+libc = "musl"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "e0d4a5d9737e7d235e269636b8f89142af84bd1a9da57273729544fb7e610319"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv6l-linux-musleabihf.tar.gz"
+[[MrBayes]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4d49fd868f77e89d8864edf5f303ff476cf3327f"
+libc = "glibc"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "bd09bfec4f2fe23a79949d67af4df546076d5974f2a0d4fa31c0bfccff8dce29"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv7l-linux-gnueabihf.tar.gz"
+[[MrBayes]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "0506703318682fe5be2bee7eb822bac37b946b0b"
+libc = "musl"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "eba483c659e67cf4b389a664dd863f0021c1b04973e47dec23ba69090a19b68d"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv7l-linux-musleabihf.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "807d7a45740caaa79583527c769721c3b93bb8e4"
+libc = "glibc"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "c345ce411d21ca32e659fe4ee53c52ca064b4cf9eb2b1c8817790a0388433828"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.i686-linux-gnu.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "084f3cda3502ccfbb093c20f80c806eb3b92c5ec"
+libc = "musl"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "c58bb0d9ef06aa25dacf5ecab18487f5d517560b4897ac871dadf9edce544eb1"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.i686-linux-musl.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "738ed3a31b90443e8e635b39d0dddadfe2ea00f9"
+os = "windows"
+
+    [[MrBayes.download]]
+    sha256 = "5a213e9a74e2e60feec130ee8d7be2b2bba87b200bc950b4962402c14e02ab46"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.i686-w64-mingw32.tar.gz"
+[[MrBayes]]
+arch = "powerpc64le"
+git-tree-sha1 = "c839327e188c7def98991a3e205c1bb89c58b91a"
+libc = "glibc"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "a0a1702664313ce1a60868ae0f53053064b8c7ac77d45710d716c5d539788a95"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.powerpc64le-linux-gnu.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "ac6f2228470ceb3d434a716fba2796197a31b8d3"
+os = "macos"
+
+    [[MrBayes.download]]
+    sha256 = "8432cd72647bb83ff3df660449b38797ef942acdf12124f32cbcd9ee15df71e1"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-apple-darwin.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "c65cf990fbee15adb23a6e875a5463490d815906"
+libc = "glibc"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "cfe52dd16586edb8c366eda7a72b5d85ededfa21da24461945bfa10e57ef541a"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-linux-gnu.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "d3d7932e53ea4548189a2fea5172948c43e5bbbf"
+libc = "musl"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "cb0d671a225852b961cc44643b04b230dcd9f57ae666b15aaff4a81847db2f58"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-linux-musl.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "cf0c88058e0dd11e4db3ab18241dcb8fa08beb2d"
+os = "freebsd"
+
+    [[MrBayes.download]]
+    sha256 = "3ef3ee6c9f0111d5be753abc2fa6d58008015ce16e4dcc951e47f1fa71bbd4b5"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-unknown-freebsd.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "8162b1300c29bb4fbc286cd28efe4cb280e6746e"
+os = "windows"
+
+    [[MrBayes.download]]
+    sha256 = "32b3411df8fa22a65787825329ee0932c5cb9357b2f1d96d29681d814c0b17a0"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-w64-mingw32.tar.gz"
