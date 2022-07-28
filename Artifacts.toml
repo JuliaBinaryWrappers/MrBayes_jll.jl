@@ -1,143 +1,406 @@
 [[MrBayes]]
 arch = "aarch64"
-git-tree-sha1 = "179ab35e4c8a0f2071f92a82aec6fc1f7acab7b5"
+git-tree-sha1 = "d94a1f93b223181e3ff6221ad43bf9cd0109854a"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[MrBayes.download]]
-    sha256 = "61988589201f9d450a1fe1583d5d10d0b6cb1e349618ea10d888c3e6ac568a48"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.aarch64-apple-darwin.tar.gz"
+    sha256 = "ed1b95822efb0dd28728943e1d7b74c1df022f97cd25980b2b00b46ac9535f92"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "aarch64"
-git-tree-sha1 = "ddfb7c1b037600b3a621cb3596e9b1a85ecb9f24"
+git-tree-sha1 = "7475f320e49271433558b90b3a265bd470ec7586"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[MrBayes.download]]
+    sha256 = "beafda16dfbffa2d0cc5d7f462a52bdf59490a92c553a4d2cab946df4a80c9e4"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "ff7b9b631d3d2f5db7eef81abb02b260c3a650a1"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[MrBayes.download]]
+    sha256 = "c059a3603ea549bd3ec4d3a1b31f6b6c58a72c2933ea77293a4d56822d0b799d"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "c34bbd1ca6bda8247128ca1ece9697dae8d72540"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "6bf474f75885b0117fe208e53e0d017631eabf21bcb4f049d255e0ec8cca3b17"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.aarch64-linux-gnu.tar.gz"
+    sha256 = "28065cc05922807da5b25b081884542fcde3bac0c5c6fa759f92807a5cc23a69"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-linux-gnu-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "aarch64"
-git-tree-sha1 = "80bcd6a1c888d9cf9621edbc9354223d2aa4c2ec"
-libc = "musl"
+git-tree-sha1 = "c2dfa6688fade9a8438da19e2ee600d4dab3c412"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "89c030430595728fbe42392d80999f5ef750052b8367f5949b20e7badbcf4088"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.aarch64-linux-musl.tar.gz"
+    sha256 = "f99fa2982e3d4bf087de19783c0471ee8ccba248ea252664c93f00a91de15c89"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "fa7cf702518204965295d130d7701b18a744b9bd"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "22d78ac6990ace32a8188578752e90283b6624417ea61df81bb0245b02802b42"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-linux-gnu-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "63f823577f13fdd770b79033cece2a843bbd260a"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "d7f25c2bdf7bc86ce8addd4a0ecb1cb7a30cf2fc1a1ddb22c21357055bfc6f68"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[MrBayes]]
+arch = "aarch64"
+git-tree-sha1 = "b3c65cfac6b0526ba9ef6cf193eef32a3f0ea1ec"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "cb4ef80625adc09599c3d1b376a5f9d4946ee55639a85a8d67351e06b5efdb93"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.aarch64-linux-musl-mpi+openmpi.tar.gz"
 [[MrBayes]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "338df6784fe0fd1c7de62bb153218ae0e0563408"
+git-tree-sha1 = "834b3ac3fd27fc9b92ee7b72ff402cd80a7c2cc4"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "eb712fb6654c308dc4d600d412c0b4b1777091116abe9761f4198524d62a3c92"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "cc9745313cbd82b6f72fdf2eca67f49eccc527ed14209e823693f1051d343b85"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "6102db1359a13b1b3eaa788f430532b48b4277d5"
-libc = "musl"
+git-tree-sha1 = "882b05e5469e90288c56795bae4fff33c920edfd"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "e0d4a5d9737e7d235e269636b8f89142af84bd1a9da57273729544fb7e610319"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "2db34314b77dc89d7eb510f3270f8c91c21fc794b22f88ffa64901e9f692fd11"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "9cb57cb57107504144202ea333ffccbdcd497447"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "40b649cc61f5fd16ad18772b0a6cab28d538f616dbc0f1316976c30d21a9166c"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[MrBayes]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7b80f905e2679f84a4662c74e300758be1475f7d"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "f91c2c3aa54a6437bc07a697ef56e12f0a42ca0d47e1f82fa38640f3da18f5fa"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv6l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[MrBayes]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "4d49fd868f77e89d8864edf5f303ff476cf3327f"
+git-tree-sha1 = "f207243af7dc84d7f08f5bcd8510c73fc26a2502"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "bd09bfec4f2fe23a79949d67af4df546076d5974f2a0d4fa31c0bfccff8dce29"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "fdb30b57046ee70856531f58422da3149227bdf2a3caa2a778b72a44cf77bf24"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "0506703318682fe5be2bee7eb822bac37b946b0b"
-libc = "musl"
-os = "linux"
-
-    [[MrBayes.download]]
-    sha256 = "eba483c659e67cf4b389a664dd863f0021c1b04973e47dec23ba69090a19b68d"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.armv7l-linux-musleabihf.tar.gz"
-[[MrBayes]]
-arch = "i686"
-git-tree-sha1 = "807d7a45740caaa79583527c769721c3b93bb8e4"
+git-tree-sha1 = "49e2dc10b8a0ad0e8ddca3a05263ae871ce91d8d"
+lazy = true
 libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "c345ce411d21ca32e659fe4ee53c52ca064b4cf9eb2b1c8817790a0388433828"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.i686-linux-gnu.tar.gz"
+    sha256 = "0a656a2b9ed1575d2dedc6cb05206f9185dc3c9279f0a5f11f7b87ecae210ac0"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[MrBayes]]
-arch = "i686"
-git-tree-sha1 = "084f3cda3502ccfbb093c20f80c806eb3b92c5ec"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "538ea250614e55de5f1f0888dc8219fb0e03b7af"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "b89aeabf5ef0dafe21861715f104fb2fd347c45daeaddedd1acd8ce9b161391f"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv7l-linux-gnueabihf-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4dbf6e418194b1deb91ab52b535e632cac086c68"
+lazy = true
 libc = "musl"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "c58bb0d9ef06aa25dacf5ecab18487f5d517560b4897ac871dadf9edce544eb1"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.i686-linux-musl.tar.gz"
+    sha256 = "a3c88d2ec09d6d8caa0cec864b8aa3a7c2ac8381751a028785320631126a6949"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[MrBayes]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5eb1ff7057714d897e8b3195f70ff7d515f084d5"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "e65df20c24218a5b0d222f80c8767572b53b02cec5ea2978913acf37ba457ad3"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.armv7l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[MrBayes]]
 arch = "i686"
-git-tree-sha1 = "738ed3a31b90443e8e635b39d0dddadfe2ea00f9"
+git-tree-sha1 = "93cf2d20ede7cb4e7b8801179b53ce0557b84f5b"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "90d53a53d7239dfd89343b60a62de502be52f3fd54b2b2393327c865e5519323"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.i686-linux-gnu-mpi+mpich.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "27894d0ef37e7abc3fb344b2083ca2bc030b1a5f"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "f2c32e4a0b4df7adda83da3edc0beb8c77004ab51ebbd847c963e91c7f555b45"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "6d12e20478cb0d41f00170a376578942ad3a4bf9"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "d668a7076ba3e37506254c39301bc75d9714fa0d6fd78f881c6c559d5866e19c"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.i686-linux-gnu-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "6ffd89c35b85ef75172d1d936201656d42c7d618"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "55ea18acc90578662d7a89b7013e69132f95412d5bd5b82d731454d3401347b5"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.i686-linux-musl-mpi+mpich.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "e0bce5aa7133cd525e5b79350f25337518fe8e43"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "e063344d955e7d494ee0656a4ce3f5c419b1f5d8edf930b66bfe240510c4e60d"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.i686-linux-musl-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "i686"
+git-tree-sha1 = "04a407b779a050d70d1c6e3946ede639878bcceb"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MrBayes.download]]
-    sha256 = "5a213e9a74e2e60feec130ee8d7be2b2bba87b200bc950b4962402c14e02ab46"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.i686-w64-mingw32.tar.gz"
+    sha256 = "c91949f11a8b70d6459e4880469f3f111e5667524b9b99f2f6d5d0b8365d99eb"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.i686-w64-mingw32-mpi+microsoftmpi.tar.gz"
 [[MrBayes]]
 arch = "powerpc64le"
-git-tree-sha1 = "c839327e188c7def98991a3e205c1bb89c58b91a"
+git-tree-sha1 = "683352356784c149367d71b5283fc63bddefbd5a"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "a0a1702664313ce1a60868ae0f53053064b8c7ac77d45710d716c5d539788a95"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "37266e9737de743005c9702b9c12e1c3d0eefd65c27a08847510438f6ddb0406"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+[[MrBayes]]
+arch = "powerpc64le"
+git-tree-sha1 = "4899fb87f2ae0acd41079a785d9ff87025e524a3"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "dc54f708bad933b67bb524f3bc81b947f5dd4acb9c7eafe857f23024bddbcc26"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "powerpc64le"
+git-tree-sha1 = "0de7a30376a1ed3dd566e35da81dec4846a088b8"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "9fa064ffd93e164d38a51215f0dc67d356696ad065212773637ba69fce18b96e"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.powerpc64le-linux-gnu-mpi+openmpi.tar.gz"
 [[MrBayes]]
 arch = "x86_64"
-git-tree-sha1 = "ac6f2228470ceb3d434a716fba2796197a31b8d3"
+git-tree-sha1 = "43095affc2144870691c398594b690d4b86cfba6"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[MrBayes.download]]
-    sha256 = "8432cd72647bb83ff3df660449b38797ef942acdf12124f32cbcd9ee15df71e1"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-apple-darwin.tar.gz"
+    sha256 = "e8622b96a337806aa10f7187f54eb66071b58f7ce92429a6283f79d9296ff69e"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "x86_64"
-git-tree-sha1 = "c65cf990fbee15adb23a6e875a5463490d815906"
+git-tree-sha1 = "c38c866e858d7d3af3cbf110ed8ff7d3a1d15a5f"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[MrBayes.download]]
+    sha256 = "d123667f367882a6197e3f098bdf8784ac0e275ecd0afad8124f885f30a4115d"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "9fed850120abaa9e0f3b2e3435c7f7b1aa193ae2"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[MrBayes.download]]
+    sha256 = "57a528b3f80fd8ce1d40262139d1444f142aa7495ca13faae470092cc2b985f4"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "2f83d681e8aa450fd1bbfe77a808e22fce105fb8"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "cfe52dd16586edb8c366eda7a72b5d85ededfa21da24461945bfa10e57ef541a"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-linux-gnu.tar.gz"
+    sha256 = "667ffcad8214cd413e31414f4dc253a323c22ca1d33adf86cc13c13d3418fe1d"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-linux-gnu-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "x86_64"
-git-tree-sha1 = "d3d7932e53ea4548189a2fea5172948c43e5bbbf"
+git-tree-sha1 = "60128d37c751af3268605e2c5565f3ae964ce8a4"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "3f88a11f3dc360e1afb5c6a5804664c7e9ab7a2a12cf7e16e921d0a279622131"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "fc5f0f308ae8156f2136b1a7f6e8f84bc41f0274"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "bfe0cb2cf6c4f4bd69babec0feb2098610cb4190659f0d6280121d71a4bf9483"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-linux-gnu-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "d80e784f6b0d62b806d9bd5fbdb62dd1728f3a8a"
+lazy = true
 libc = "musl"
+mpi = "mpich"
 os = "linux"
 
     [[MrBayes.download]]
-    sha256 = "cb0d671a225852b961cc44643b04b230dcd9f57ae666b15aaff4a81847db2f58"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-linux-musl.tar.gz"
+    sha256 = "054d65745bdf3e7d6ec166a4b53ca6e4ab152f578a097455823c6a469bd07818"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-linux-musl-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "x86_64"
-git-tree-sha1 = "cf0c88058e0dd11e4db3ab18241dcb8fa08beb2d"
+git-tree-sha1 = "ab334e1ce4c6c1130482d2fd3ed166771347b07b"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[MrBayes.download]]
+    sha256 = "5d062f3f3352400d3ac002cda98c32b759d82aee0b8f9d6aead175e7c23d9c22"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-linux-musl-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "b8a6a9aafefc44084424635a1caa8305d7d11f6c"
+lazy = true
+mpi = "mpich"
 os = "freebsd"
 
     [[MrBayes.download]]
-    sha256 = "3ef3ee6c9f0111d5be753abc2fa6d58008015ce16e4dcc951e47f1fa71bbd4b5"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "960f74d704447a3cc9c6d9095ebb63cdb025f84ef13fb4f524a19bbc923fb082"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
 [[MrBayes]]
 arch = "x86_64"
-git-tree-sha1 = "8162b1300c29bb4fbc286cd28efe4cb280e6746e"
+git-tree-sha1 = "89397af0d35f66c824c4c57bf4296a6bcdbc5181"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[MrBayes.download]]
+    sha256 = "d9593ae6dced1e33266c7db1f5622e3319ff6d7e45b7df8af1f791ec0a5c44b3"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[MrBayes]]
+arch = "x86_64"
+git-tree-sha1 = "d8a81c34b29868c64dbff7542beb4330dc31243b"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MrBayes.download]]
-    sha256 = "32b3411df8fa22a65787825329ee0932c5cb9357b2f1d96d29681d814c0b17a0"
-    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.7+0/MrBayes.v3.2.7.x86_64-w64-mingw32.tar.gz"
+    sha256 = "af18b3c8586cc06b439f76899af045acb5e5e51462d24c88c13407f5ac0ad589"
+    url = "https://github.com/JuliaBinaryWrappers/MrBayes_jll.jl/releases/download/MrBayes-v3.2.8+0/MrBayes.v3.2.8.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
